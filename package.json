@@ -1,0 +1,39 @@
+{
+  "name": "react-require",
+  "version": "1.0.0",
+  "description": "A react component loader with babel",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && tsc --outDir dist -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unadlib/react-require.git"
+  },
+  "keywords": [
+    "react",
+    "loader"
+  ],
+  "author": "unadlib",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unadlib/react-require/issues"
+  },
+  "homepage": "https://github.com/unadlib/react-require#readme",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7.1.2",
+    "@types/react": "^16.8.24",
+    "typescript": "^3.5.3"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.5.5",
+    "react": "^16.8.6"
+  }
+}
