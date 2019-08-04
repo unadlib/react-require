@@ -8,4 +8,4 @@ export const load = <P extends {}>(
   props?: Attributes & P | null,
   ...children: ReactNode[]
 ): ReactElement<P>  =>
-  React.createElement(eval(transformFileSync(path)!.code!) as Component<P>, props, children);
+  React.createElement(eval(transformFileSync(path)!.code!) as Component<P>, props, ...children);
